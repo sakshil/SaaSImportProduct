@@ -10,11 +10,11 @@ namespace SaaSImportProductTest
     public class UnitTestCases
     {
         private CapterraService capterraService;
-        private FileFormatter formatterInstance;
+        private FileParser formatterInstance;
         public UnitTestCases()
         {
             capterraService = new CapterraService();
-            formatterInstance = new FileFormatter();
+            formatterInstance = new FileParser();
         }
         [TestMethod]
         public void InCorrectFilePath()
@@ -32,7 +32,7 @@ namespace SaaSImportProductTest
             var fileName = "randomFile.jhst";
             var exceptionMessage = "File path or name is invalid";
 
-            var exception = Assert.ThrowsException<IOException>(() => formatterInstance.GetFileFormatterInstance(fileName));
+            var exception = Assert.ThrowsException<IOException>(() => formatterInstance.GetFileParserInstance(fileName));
 
             Assert.AreEqual(exceptionMessage, exception.Message);
         }

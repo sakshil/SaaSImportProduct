@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SaaSProductsImport.Interface
 {
-    public interface IFileFormatter
+    public interface IFileParser
     {
         void ProcessFile(string filePath);
     }

@@ -39,8 +39,8 @@ namespace SaaSProductsImport
                 string productName = commandString.Split(' ')[2];
                 string filePath = commandString.Split(' ')[3];
 
-                FileFormatter productSelector = new FileFormatter();
-                IFileFormatter product = productSelector.GetFileFormatterInstance(filePath);
+                FileParser productSelector = new FileParser();
+                IFileParser product = productSelector.GetFileParserInstance(filePath);
 
                 product.ProcessFile(filePath);
                 GetInput();

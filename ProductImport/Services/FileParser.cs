@@ -4,9 +4,9 @@ using System;
 
 namespace SaaSProductsImport.Services
 {
-    public class FileFormatter
+    public class FileParser
     {
-        public IFileFormatter GetFileFormatterInstance(string fileName)
+        public IFileParser GetFileParserInstance(string fileName)
         {
             if (fileName.Contains("yaml"))
             {

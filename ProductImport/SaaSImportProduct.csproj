@@ -64,7 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IFileFormatter.cs" />
+    <Compile Include="Interfaces\IFileParser.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Models\Capterra\Capterra.cs" />
     <Compile Include="Models\Domain\BaseEntity.cs" />
@@ -75,7 +75,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\MongoDBRepository.cs" />
     <Compile Include="Services\MySQLRepository.cs" />
-    <Compile Include="Services\FileFormatter.cs" />
+    <Compile Include="Services\FileParser.cs" />
     <Compile Include="Services\Products\CapterraService.cs" />
     <Compile Include="Services\Products\SoftwareAdviceService.cs" />
     <Compile Include="Services\RepositoryServiceProvider.cs" />

@@ -8,7 +8,7 @@ using YamlDotNet.Serialization.NamingConventions;
 
 namespace SaaSProductsImport.Services.Products
 {
-    public class CapterraService : IFileFormatter
+    public class CapterraService : IFileParser
     {
         private IRepository repositorySoftwareAdivce;
 

@@ -6,7 +6,7 @@ using System.IO;
 
 namespace SaaSProductsImport.Services.Products
 {
-    public class SoftwareAdviceService : IFileFormatter
+    public class SoftwareAdviceService : IFileParser
     {
 
         private IRepository repositorySoftwareAdivce;
