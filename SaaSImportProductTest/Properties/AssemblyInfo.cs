@@ -2,18 +2,18 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("SaaSProductMasterTest")]
+[assembly: AssemblyTitle("SaaSImportProductTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SaaSProductMasterTest")]
+[assembly: AssemblyProduct("SaaSImportProductTest")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]
 
-[assembly: Guid("b04705ef-0b5b-4569-9fed-417d94899a93")]
+[assembly: Guid("530f7a49-4cb6-4d2c-9c03-3a3e9a109557")]
 
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ProductImport")]
+[assembly: AssemblyTitle("SaaSProductImportMaster")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProductImport")]
+[assembly: AssemblyProduct("SaaSProductImportMaster")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("42129961-d6b3-492a-b16d-8303e2dabcd4")]
+[assembly: Guid("01649d62-c6cb-4666-9fc2-b691339088e8")]
 
 // Version information for an assembly consists of the following four values:
 //
