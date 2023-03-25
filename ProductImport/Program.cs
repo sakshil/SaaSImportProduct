@@ -36,23 +36,16 @@ namespace SaaSProductsImport
         {
             try
             {
-                var productName = commandString.Split(' ')[1];
-                var filePath = commandString.Split(' ')[2];
+                string productName = commandString.Split(' ')[2];
+                string filePath = commandString.Split(' ')[3];
 
                 FileFormatter productSelector = new FileFormatter();
-                try
-                {
-                    string fileName = filePath.Split('/')[1];
-                    IFileFormatter product = productSelector.GetFileFormatterInstance(fileName);
-                    product.ProcessFile(filePath);
-                    GetInput();
-                    Console.ReadKey();
-                }
-                catch (Exception)
-                {
-                    throw new Exception("Invalid file name");
-                }
-                
+                IFileFormatter product = productSelector.GetFileFormatterInstance(filePath);
+
+                product.ProcessFile(filePath);
+                GetInput();
+                Console.ReadKey();
+
             }
             catch (IndexOutOfRangeException)
             {                

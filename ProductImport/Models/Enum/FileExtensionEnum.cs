@@ -1,6 +1,6 @@
 ﻿namespace SaaSProductsImport.Models.Enum
 {
-    enum ProductEnum
+    enum FileExtensionEnum
     {
         yaml,
         json,

@@ -68,7 +68,7 @@
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Models\Capterra\Capterra.cs" />
     <Compile Include="Models\Domain\BaseEntity.cs" />
-    <Compile Include="Models\Enum\ProductEnum.cs" />
+    <Compile Include="Models\Enum\FileExtensionEnum.cs" />
     <Compile Include="Models\SoftwareAdvice\SoftwareAdvice.cs" />
     <Compile Include="Models\SoftwareAdvice\SoftwareAdviceProduct.cs" />
     <Compile Include="Program.cs" />
@@ -78,7 +78,7 @@
     <Compile Include="Services\FileFormatter.cs" />
     <Compile Include="Services\Products\CapterraService.cs" />
     <Compile Include="Services\Products\SoftwareAdviceService.cs" />
-    <Compile Include="Services\RepositoryDIService.cs" />
+    <Compile Include="Services\RepositoryServiceProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

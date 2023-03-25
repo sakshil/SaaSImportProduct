@@ -8,10 +8,10 @@ namespace SaaSProductsImport.Services
     /// In future, if we need to change from MySQLRepository to MongoDBRepository, we can easily change it here 
     /// without changing in each class.
     /// </summary>
-    public class RepositoryDIService
+    public class RepositoryServiceProvider
     {
         private static ServiceProvider serviceProvider;
-         static RepositoryDIService()
+         static RepositoryServiceProvider()
          {
             serviceProvider = new ServiceCollection()
                 .AddScoped<IRepository, MySQLRepository>()

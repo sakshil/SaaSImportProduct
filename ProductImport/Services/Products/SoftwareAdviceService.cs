@@ -12,7 +12,7 @@ namespace SaaSProductsImport.Services.Products
         private IRepository repositorySoftwareAdivce;
         public SoftwareAdviceService()
         {
-            repositorySoftwareAdivce = RepositoryDIService.GetRepositoryInstance();
+            repositorySoftwareAdivce = RepositoryServiceProvider.GetRepositoryInstance();
         }
 
         public void ProcessFile(string filePath)

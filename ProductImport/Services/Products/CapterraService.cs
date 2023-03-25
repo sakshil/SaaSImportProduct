@@ -14,7 +14,7 @@ namespace SaaSProductsImport.Services.Products
 
         public CapterraService()
         {
-            repositorySoftwareAdivce = RepositoryDIService.GetRepositoryInstance();
+            repositorySoftwareAdivce = RepositoryServiceProvider.GetRepositoryInstance();
         }
         public void ProcessFile(string filePath)
         {
