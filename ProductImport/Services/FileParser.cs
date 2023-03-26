@@ -1,8 +1,8 @@
-﻿using SaaSProductsImport.Interface;
-using SaaSProductsImport.Services.Products;
+﻿using SaaSImportProduct.Interface;
+using SaaSImportProduct.Services.Products;
 using System;
 
-namespace SaaSProductsImport.Services
+namespace SaaSImportProduct.Services
 {
     public class FileParser
     {
@@ -18,7 +18,7 @@ namespace SaaSProductsImport.Services
             }
             else
             {
-                throw new ArgumentException("Invalid product name");
+                throw new ArgumentException("The file parser for the given file type is not supported");
             }
 
         }

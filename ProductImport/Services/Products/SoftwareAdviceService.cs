@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using SaaSProductsImport.Interface;
-using SaaSProductsImport.Models.SoftwareAdvice;
+using SaaSImportProduct.Interface;
+using SaaSImportProduct.Models.SoftwareAdvice;
 using System;
 using System.IO;
 
-namespace SaaSProductsImport.Services.Products
+namespace SaaSImportProduct.Services.Products
 {
     public class SoftwareAdviceService : IFileParser
     {

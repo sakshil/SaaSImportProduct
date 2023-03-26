@@ -1,7 +1,7 @@
-﻿using SaaSProductsImport.Models.Domain;
+﻿using SaaSImportProduct.Models.Domain;
 using System.Collections.Generic;
 
-namespace SaaSProductsImport.Models.SoftwareAdvice
+namespace SaaSImportProduct.Models.SoftwareAdvice
 {
     public class SoftwareAdviceProduct : BaseEntity
     {

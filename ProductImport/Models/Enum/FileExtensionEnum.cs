@@ -1,4 +1,4 @@
-﻿namespace SaaSProductsImport.Models.Enum
+﻿namespace SaaSImportProduct.Models.Enum
 {
     enum FileExtensionEnum
     {

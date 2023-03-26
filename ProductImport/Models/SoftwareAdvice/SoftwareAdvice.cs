@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SaaSProductsImport.Models.SoftwareAdvice
+namespace SaaSImportProduct.Models.SoftwareAdvice
 {
     class SoftwareAdvice
     {

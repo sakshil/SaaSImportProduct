@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using SaaSProductsImport.Services.Products;
+using SaaSImportProduct.Services.Products;
 using System;
 
-namespace SaaSProductsImport.Services
+namespace SaaSImportProduct.Services
 {
     /// <summary>
     /// In future, if we need to change from MySQLRepository to MongoDBRepository, we can easily change it here 

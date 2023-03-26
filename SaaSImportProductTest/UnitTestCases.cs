@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SaaSProductsImport.Services;
-using SaaSProductsImport.Services.Products;
+using SaaSImportProduct.Services;
+using SaaSImportProduct.Services.Products;
+using System;
 using System.IO;
 
 namespace SaaSImportProductTest
@@ -29,9 +30,9 @@ namespace SaaSImportProductTest
         public void InCorrectFileExtension()
         {
             var fileName = "randomFile.jhst";
-            var exceptionMessage = "File path or name is invalid";
+            var exceptionMessage = "The file parser for the given file type is not supported";
 
-            var exception = Assert.ThrowsException<IOException>(() => formatterInstance.GetFileParserInstance(fileName));
+            var exception = Assert.ThrowsException<ArgumentException>(() => formatterInstance.GetFileParserInstance(fileName));
 
             Assert.AreEqual(exceptionMessage, exception.Message);
         }

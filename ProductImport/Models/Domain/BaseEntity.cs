@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SaaSProductsImport.Models.Domain
+namespace SaaSImportProduct.Models.Domain
 {
     public class BaseEntity 
     {

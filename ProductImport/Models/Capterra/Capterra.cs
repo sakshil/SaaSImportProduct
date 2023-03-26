@@ -1,6 +1,6 @@
-﻿using SaaSProductsImport.Models.Domain;
+﻿using SaaSImportProduct.Models.Domain;
 
-namespace SaaSProductsImport.Models.Capterra
+namespace SaaSImportProduct.Models.Capterra
 {
     public class Capterra : BaseEntity
     {

@@ -1,8 +1,8 @@
-﻿using SaaSProductsImport.Interface;
-using SaaSProductsImport.Services;
+﻿using SaaSImportProduct.Interface;
+using SaaSImportProduct.Services;
 using System;
 
-namespace SaaSProductsImport
+namespace SaaSImportProduct
 {
     class Program
     {
@@ -21,7 +21,6 @@ namespace SaaSProductsImport
         {
             string commandString = string.Empty;
 
-            Console.WriteLine(Environment.NewLine);
             Console.WriteLine("Please enter the command for importing data.");
             commandString = Console.ReadLine();
 
@@ -53,7 +52,7 @@ namespace SaaSProductsImport
             }
             catch (ArgumentException)
             {                
-                throw new Exception("Invalid product"); 
+                throw new Exception("Invalid file name"); 
             }
             catch (Exception)
             {                

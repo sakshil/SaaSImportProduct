@@ -1,8 +1,8 @@
-﻿using SaaSProductsImport.Models.Domain;
-using SaaSProductsImport.Services.Products;
+﻿using SaaSImportProduct.Models.Domain;
+using SaaSImportProduct.Services.Products;
 using System.Collections.Generic;
 
-namespace SaaSProductsImport.Services
+namespace SaaSImportProduct.Services
 {
     class MongoDBRepository : IRepository
     {        

@@ -1,7 +1,7 @@
-﻿using SaaSProductsImport.Models.Domain;
+﻿using SaaSImportProduct.Models.Domain;
 using System.Collections.Generic;
 
-namespace SaaSProductsImport.Services.Products
+namespace SaaSImportProduct.Services.Products
 {
     public interface IRepository
     {

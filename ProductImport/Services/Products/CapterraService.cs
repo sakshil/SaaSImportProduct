@@ -1,12 +1,12 @@
-﻿using SaaSProductsImport.Interface;
-using SaaSProductsImport.Models.Capterra;
+﻿using SaaSImportProduct.Interface;
+using SaaSImportProduct.Models.Capterra;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace SaaSProductsImport.Services.Products
+namespace SaaSImportProduct.Services.Products
 {
     public class CapterraService : IFileParser
     {
